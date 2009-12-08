@@ -1,0 +1,4 @@
+# Just before make(1) is about to be run, this file is sourced
+
+# This is commented out until Cygwin contains docbook2man(1)
+# make doc
