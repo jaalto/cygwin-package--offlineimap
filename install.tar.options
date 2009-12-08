@@ -1,0 +1,9 @@
+# This file contains extra options when files are
+# installed. The options are given one option per line.
+
+--include=../offlineimap.conf
+--include=../offlineimap.conf.minimal
+
+# Nothing in this directory
+--exclude=sgml-common
+--exclude=*ps2epsi
