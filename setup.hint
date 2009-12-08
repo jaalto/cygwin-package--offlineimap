@@ -1,0 +1,5 @@
+sdesc: "IMAP/Maildir synchronization and reader"
+ldesc: "Read the same mailbox from multiple computers, and have your changes
+(deletions, etc.) be automatically reflected on all computers."
+category: Mail Python
+requires: cygwin python
