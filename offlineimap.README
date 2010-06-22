@@ -1,10 +1,15 @@
-offlineimap
+>offlineimap
 ------------------------------------------
 
 IMAP/Maildir synchronization and reader
 
 Read the same mailbox from multiple computers, and have your changes
 (deletions, etc.) be automatically reflected on all computers.
+
+See /usr/share/offlineimap directory for example files:
+
+    offlineimap.conf
+    offlineimap.conf.minimal
 
 Runtime requirements:
   cygwin
@@ -36,7 +41,7 @@ License:
   GPL-2+
 
 Language:
-  C
+  Python
 
 ------------------------------------------
 
@@ -58,6 +63,11 @@ Port Notes:
 
 ----- version 6.2.0.1-1 -----
 - Python 2.6 2010-06-17 Jari Aalto
+
+----- version 6.2.0+nmu1-1 -----
+- New upstream release 2009-12-08 Jari Aalto
+- Cygwin does not have docbook2man to convert *.sgml into
+  manual page. Copied one from Debian.
 
 ----- version 6.2.0+nmu1-1 -----
 - Initial release 2009-12-08 Jari Aalto

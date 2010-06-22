@@ -1,0 +1,7 @@
+manpage for Cygwin
+------------------
+
+- The manual page was copied from Debian.
+- Apply the included patch whenever a new page is upgraded.
+
+ -- Jari Aalto 2010-01-11 17:24
