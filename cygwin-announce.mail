@@ -1,6 +1,6 @@
--- Copyright (C) 2009 Jari Aalto; Licensed under GPL v2 or later
 To: cygwin-announce@cygwin.com
-Subject: Updated: offlineimap 6.2.0+nmu1-1 -- IMAP/Maildir synchronization and reader
+Subject: Updated: offlineimap 6.2.0-1 -- IMAP/Maildir synchronization and reader
+--text follows this line--
 
 PACKAGE DESCRIPTION
 ===================
@@ -14,7 +14,7 @@ Read the same mailbox from multiple computers, and have your changes
 CHANGES SINCE LAST RELEASE
 ==========================
 
-None.
+Built for Python 2.6
 
 INSTALL OR UPGRADE NOTES
 ========================
