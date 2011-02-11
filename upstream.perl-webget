@@ -1,2 +1,2 @@
 tag1: offlineimap
-  http://packages.debian.org/unstable/offlineimap pregexp:tar.gz file:offlineimap_6.2.0.tar.gz new: x:
+  http://packages.debian.org/unstable/offlineimap pregexp:orig.tar.gz file:offlineimap_6.2.0.orig.tar.gz new: x:
