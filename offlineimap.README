@@ -12,10 +12,10 @@ See /usr/share/offlineimap directory for example files:
     offlineimap.conf.minimal
 
 Runtime requirements:
-  cygwin
+  python
 
 Build requirements:
-  cygwin
+  python
 
 Canonical homepage:
   http://freshmeat.net/projects/offlineimap
@@ -61,6 +61,9 @@ Files included in the binary distribution:
 
 Port Notes:
 
+----- version 6.2.0.2-1 -----
+- New upstream release 2011-02-11 Jari Aalto
+
 ----- version 6.2.0.1-1 -----
 - Python 2.6 2010-06-17 Jari Aalto
 
@@ -73,4 +76,4 @@ Port Notes:
 - Initial release 2009-12-08 Jari Aalto
 
 Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
-Copyright (C) 2009-2010 Jari Aalto; Licensed under GPL v2 or later
+Copyright (C) 2009-2011 Jari Aalto; Licensed under GPL v2 or later
