@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: offlineimap 6.2.0.1-1 -- IMAP/Maildir synchronization and reader
+Subject: Updated: offlineimap 6.2.0.2-1 -- IMAP/Maildir synchronization and reader
 --text follows this line--
 
 PACKAGE DESCRIPTION
@@ -14,13 +14,12 @@ Read the same mailbox from multiple computers, and have your changes
 CHANGES SINCE LAST RELEASE
 ==========================
 
-- Built for Python 2.6
-- See homepage and section "Recent release"
+See homepage and section "Recent release".
 
 INSTALL OR UPGRADE NOTES
 ========================
 
-Standard install.
+See /usr/share/doc/offlineimap/UPGRADING
 
 CYGWIN INSTALLATION INFORMATION
 ===============================
