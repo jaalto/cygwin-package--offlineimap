@@ -1,0 +1,90 @@
+From 7ed074cc775eee608c67d791a049455732dec6d6 Mon Sep 17 00:00:00 2001
+From: Jari Aalto <jari.aalto@cante.net>
+Date: Wed, 9 Dec 2009 02:18:14 +0200
+Subject: [PATCH] offlineimap.1: remove Debian specifics
+
+Signed-off-by: Jari Aalto <jari.aalto@cante.net>
+---
+ offlineimap.1 |   31 +++++--------------------------
+ 1 files changed, 5 insertions(+), 26 deletions(-)
+
+diff --git a/offlineimap.1 b/offlineimap.1
+index 68f9965..6809815 100644
+--- a/offlineimap.1
++++ b/offlineimap.1
+@@ -90,9 +90,8 @@ your folder directory, and run it!
+ .PP
+ You can quickly set up your configuration file.  The distribution
+ includes a file \fIofflineimap.conf.minimal\fR
+-(Debian users
+-may find this at
+-\fI/usr/share/doc/offlineimap/examples/offlineimap.conf.minimal\fR) that is a basic example of setting of \fBOfflineIMAP\fR\&.  You can
++(see
++\fI/usr/share/doc/offlineimap-*/offlineimap.conf*\fR) that is a basic example of setting of \fBOfflineIMAP\fR\&.  You can
+ simply copy this file into your home directory and name it
+ \fI\&.offlineimaprc\fR (note the leading period).  A
+ command such as \fBcp offlineimap.conf.minimal ~/.offlineimaprc\fR will do it.  Or, if you prefer, you can just copy this text to
+@@ -137,8 +136,7 @@ If you are reading this document via the "man" command, it is
+ likely
+ that you have no installation tasks to perform; your system
+ administrator has already installed it.  If you need to install it
+-yourself, you have three options: a system-wide installation with
+-Debian, system-wide installation with other systems, and a single-user
++yourself, you have options: system-wide installation with other systems, and a single-user
+ installation.  You can download the latest version of \fBOfflineIMAP\fR from
+ the \fBOfflineIMAP\fR
+ website <URL:http://software.complete.org/offlineimap/>\&.
+@@ -158,9 +156,7 @@ available to interface with Gmail's IMAP front-end.
+ .TP 0.2i
+ \(bu
+ You must have Python version 2.4 or above installed.
+-If you are
+-running on Debian GNU/Linux, this requirement will automatically be
+-taken care of for you.  If you do not have Python already, check with
++If you do not have Python already, check with
+ your system administrator or operating system vendor; or, download it from
+ the Python website <URL:http://www.python.org/>\&.
+ If you intend to use the SSL interface, your
+@@ -176,18 +172,6 @@ with \fBOfflineIMAP\fR\&.  If you do not have a mail reader
+ that supports Maildir, you can often install a local
+ IMAP server and point both \fBOfflineIMAP\fR and your mail
+ reader at it.
+-.SS "SYSTEM-WIDE INSTALLATION, DEBIAN"
+-.PP
+-If you are tracking Debian unstable, you may install
+-\fBOfflineIMAP\fR by simply running the following command as root:
+-.PP
+-\fBapt-get install offlineimap\fR
+-.PP
+-If you are not tracking Debian unstable, download the Debian .deb
+-package from the \fBOfflineIMAP\fR website <URL:http://software.complete.org/offlineimap/>
+-and then run \fBdpkg -i\fR to install the downloaded
+-package.  Then, skip to [XRef to CONFIGURATION] below.  You will type \fBofflineimap\fR to
+-invoke the program.
+ .SS "SYSTEM-WIDE INSTALLATION, OTHER"
+ .PP
+ Download the tar.gz version of the package from the
+@@ -707,9 +691,6 @@ offlineimap@complete.org.  Archives are available at
+ .PP
+ Reports of bugs should be reported online at the
+ \fBOfflineIMAP\fR homepage.
+-Debian users are encouraged to instead use the
+-Debian
+-bug-tracking system.
+ .SH "UPGRADING TO 4.0"
+ .PP
+ If you are upgrading from a version of \fBOfflineIMAP\fR prior to
+@@ -775,9 +756,7 @@ homepage <URL:http://software.complete.org/offlineimap>\&.
+ .SH "HISTORY"
+ .PP
+ Detailed history may be found in the file ChangeLog in the
+-\fBOfflineIMAP\fR distribution.  Feature and bug histories may be
+-found in the file debian/changelog which, despite its name, is
+-not really Debian-specific.  This section provides a large
++\fBOfflineIMAP\fR distribution. This section provides a large
+ overview.
+ .PP
+ Development on \fBOfflineIMAP\fR began on June 18, 2002.  Version
+-- 
+1.6.4.2
+
